@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TestView.swift
 //  DemoSwipeListElement20230215
 //
 //  Created by Xavier on 2/15/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TestView: View {
     @State var names = ["Jaydon", "Caleb", "Jed", "Flora", "Isha", "Ada", "Zayn"]
     var body: some View {
         NavigationStack {
@@ -16,7 +16,7 @@ struct ContentView: View {
                     HStack {
                         Text(name)
                     }
-                    .swipeActions(allowsFullSwipe: false) {
+                    .swipeActions(edge: .trailing, allowsFullSwipe: false) {
                         Button(role: .destructive) {
                             names.removeAll { $0 == name }
                             // or delete function for custom objects
@@ -29,6 +29,7 @@ struct ContentView: View {
                             Label("Move", systemImage: "folder.fill")
                         }
                         .tint(.orange)
+
                     }
                     .swipeActions(edge: .leading) {
                         Button(role: .cancel) {
@@ -45,8 +46,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TestView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TestView()
     }
 }

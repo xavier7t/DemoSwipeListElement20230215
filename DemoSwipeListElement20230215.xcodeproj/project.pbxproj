@@ -11,6 +11,7 @@
 		254C7E0E299DBEFF00652C02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254C7E0D299DBEFF00652C02 /* ContentView.swift */; };
 		254C7E10299DBF0000652C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254C7E0F299DBF0000652C02 /* Assets.xcassets */; };
 		254C7E13299DBF0000652C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254C7E12299DBF0000652C02 /* Preview Assets.xcassets */; };
+		254C7E1A299DBF0A00652C02 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254C7E19299DBF0A00652C02 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		254C7E0D299DBEFF00652C02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		254C7E0F299DBF0000652C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		254C7E12299DBF0000652C02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		254C7E19299DBF0A00652C02 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				254C7E0B299DBEFF00652C02 /* DemoSwipeListElement20230215App.swift */,
 				254C7E0D299DBEFF00652C02 /* ContentView.swift */,
+				254C7E19299DBF0A00652C02 /* TestView.swift */,
 				254C7E0F299DBF0000652C02 /* Assets.xcassets */,
 				254C7E11299DBF0000652C02 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254C7E1A299DBF0A00652C02 /* TestView.swift in Sources */,
 				254C7E0E299DBEFF00652C02 /* ContentView.swift in Sources */,
 				254C7E0C299DBEFF00652C02 /* DemoSwipeListElement20230215App.swift in Sources */,
 			);
